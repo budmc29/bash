@@ -6,6 +6,10 @@ general purpose instructions.
 
 [docs]: (https://github.com/exercism/docs)
 
+Make sure you read the [policies document] and follow the conventions we agreed upon.
+
+[policies document]: (https://github.com/exercism/bash/blob/master/docs/POLICIES.md)
+
 A great way to get started contributing is [porting an exercise] from another
 track!  It helps you get into the repository, learn your way around, and see
 how things are structured.
@@ -145,15 +149,6 @@ You can check to see if your example script works by running `bats`.
 ```bash
 $ bats hello_world_test.sh
 ```
-
-#### Bash Style Guide
-
-When creating the tests, the tests should follow the [bash style guide]
-to avoid having an inconsistent style.  The tests are delivered as a
-product, and should be as idiomatic as possible, and this will help
-maintain a certain level of consistency.
-
-[bash style guide]: https://google.github.io/styleguide/shell.xml
 
 ### Implementing an Example Solution
 
